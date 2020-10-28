@@ -32,9 +32,23 @@ ul {
   padding: 0px 200px;
 }
 
-.header-title {
+.header-left {
   display: flex;
   align-items: baseline;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.triangle {
+  width:0;
+  height:0;
+  border-width:5px 5px 0;
+  border-style:solid;
+  border-color:white transparent transparent;
+  margin-left: 5px;
 }
 
 header h1 {
