@@ -1,13 +1,17 @@
-body,
+body {
+
+}
 html {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -17,4 +21,82 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #3b5998;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+}
+
+header h1 {
+  padding-right: 10px;
+}
+
+header nav {
+  font-size: 10px;
+}
+
+.abstract {
+  padding-bottom: 40px;
+}
+
+.abstract p {
+  font-size: 10px;
+}
+
+.abstract h1 {
+  margin-block-end: 0px;
+}
+
+.register-button {
+  background-color: #42b72a;
+  border: 0;
+  color: white;
+  height: 20px;
+}
+
+.main {
+  background-color: aliceblue;
+  padding: 5px 200px 100px 200px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  padding-block-end: 1%;
+  padding-block-start: 1%;
+}
+
+.figcaption-title {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px 0px 10px 0px;
+}
+
+.figcaption {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 20%;
+}
+
+img {
+  margin: 0 23%;
+}
+
+.start-button {
+  margin: 0 45%;
 }
